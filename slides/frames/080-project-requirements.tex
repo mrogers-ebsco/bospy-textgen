@@ -1,0 +1,47 @@
+\begin{frame}
+\frametitle{Mini-Project: Requirements Analysis}
+
+First, consider system use cases and constraints.
+
+\vspace{24pt}
+
+\begin{columns}
+
+	\begin{column}{0.5\textwidth}
+		Use Cases
+		
+		\begin{itemize}
+			
+			\item As a traveler, I want to read a brief overview
+			of the forecast at my destination.
+			
+			\item As an event planner, I want to include
+			the forecast in a welcome email to attendees.
+			
+			\item As a community organizer, I want to post
+			the forecast to a bulletin board.
+			
+		\end{itemize}
+		
+	\end{column}
+	
+	\begin{column}{0.5\textwidth}
+		Constraints
+		
+		\begin{itemize}
+		
+			\item The NWS API has reasonable rate limits
+			to prevent abuse of the system.
+			
+			\item Data covers no more than 7 days ahead.
+			
+			\item Forecast features are limited to temperature, wind speed
+			and direction, cloud cover, and precipitation.
+		
+		\end{itemize}
+		
+	\end{column}
+
+\end{columns}
+
+\end{frame}

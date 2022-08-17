@@ -1,0 +1,264 @@
+{
+    "@context": [
+        "https://geojson.org/geojson-ld/geojson-context.jsonld",
+        {
+            "@version": "1.1",
+            "wx": "https://api.weather.gov/ontology#",
+            "geo": "http://www.opengis.net/ont/geosparql#",
+            "unit": "http://codes.wmo.int/common/unit/",
+            "@vocab": "https://api.weather.gov/ontology#"
+        }
+    ],
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -71.095841699999994,
+                    42.442618299999999
+                ],
+                [
+                    -71.101006999999996,
+                    42.421218400000001
+                ],
+                [
+                    -71.072011500000002,
+                    42.417403100000001
+                ],
+                [
+                    -71.066840200000001,
+                    42.438802700000004
+                ],
+                [
+                    -71.095841699999994,
+                    42.442618299999999
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "updated": "2022-08-14T02:29:06+00:00",
+        "units": "us",
+        "forecastGenerator": "BaselineForecastGenerator",
+        "generatedAt": "2022-08-14T05:07:07+00:00",
+        "updateTime": "2022-08-14T02:29:06+00:00",
+        "validTimes": "2022-08-13T20:00:00+00:00/P8DT6H",
+        "elevation": {
+            "unitCode": "wmoUnit:m",
+            "value": 35.052
+        },
+        "periods": [
+            {
+                "number": 1,
+                "name": "Overnight",
+                "startTime": "2022-08-14T01:00:00-04:00",
+                "endTime": "2022-08-14T06:00:00-04:00",
+                "isDaytime": false,
+                "temperature": 58,
+                "temperatureUnit": "F",
+                "temperatureTrend": null,
+                "windSpeed": "3 mph",
+                "windDirection": "W",
+                "icon": "https://api.weather.gov/icons/land/night/few?size=medium",
+                "shortForecast": "Mostly Clear",
+                "detailedForecast": "Mostly clear, with a low around 58. West wind around 3 mph."
+            },
+            {
+                "number": 2,
+                "name": "Sunday",
+                "startTime": "2022-08-14T06:00:00-04:00",
+                "endTime": "2022-08-14T18:00:00-04:00",
+                "isDaytime": true,
+                "temperature": 82,
+                "temperatureUnit": "F",
+                "temperatureTrend": null,
+                "windSpeed": "3 to 9 mph",
+                "windDirection": "NE",
+                "icon": "https://api.weather.gov/icons/land/day/few?size=medium",
+                "shortForecast": "Sunny",
+                "detailedForecast": "Sunny, with a high near 82. Northeast wind 3 to 9 mph."
+            },
+            {
+                "number": 3,
+                "name": "Sunday Night",
+                "startTime": "2022-08-14T18:00:00-04:00",
+                "endTime": "2022-08-15T06:00:00-04:00",
+                "isDaytime": false,
+                "temperature": 61,
+                "temperatureUnit": "F",
+                "temperatureTrend": null,
+                "windSpeed": "2 to 9 mph",
+                "windDirection": "S",
+                "icon": "https://api.weather.gov/icons/land/night/sct?size=medium",
+                "shortForecast": "Partly Cloudy",
+                "detailedForecast": "Partly cloudy, with a low around 61. South wind 2 to 9 mph."
+            },
+            {
+                "number": 4,
+                "name": "Monday",
+                "startTime": "2022-08-15T06:00:00-04:00",
+                "endTime": "2022-08-15T18:00:00-04:00",
+                "isDaytime": true,
+                "temperature": 80,
+                "temperatureUnit": "F",
+                "temperatureTrend": null,
+                "windSpeed": "3 to 9 mph",
+                "windDirection": "E",
+                "icon": "https://api.weather.gov/icons/land/day/sct?size=medium",
+                "shortForecast": "Mostly Sunny",
+                "detailedForecast": "Mostly sunny, with a high near 80. East wind 3 to 9 mph."
+            },
+            {
+                "number": 5,
+                "name": "Monday Night",
+                "startTime": "2022-08-15T18:00:00-04:00",
+                "endTime": "2022-08-16T06:00:00-04:00",
+                "isDaytime": false,
+                "temperature": 64,
+                "temperatureUnit": "F",
+                "temperatureTrend": null,
+                "windSpeed": "2 to 8 mph",
+                "windDirection": "E",
+                "icon": "https://api.weather.gov/icons/land/night/bkn?size=medium",
+                "shortForecast": "Mostly Cloudy",
+                "detailedForecast": "Mostly cloudy, with a low around 64. East wind 2 to 8 mph."
+            },
+            {
+                "number": 6,
+                "name": "Tuesday",
+                "startTime": "2022-08-16T06:00:00-04:00",
+                "endTime": "2022-08-16T18:00:00-04:00",
+                "isDaytime": true,
+                "temperature": 76,
+                "temperatureUnit": "F",
+                "temperatureTrend": null,
+                "windSpeed": "6 to 13 mph",
+                "windDirection": "NE",
+                "icon": "https://api.weather.gov/icons/land/day/rain_showers,20/bkn?size=medium",
+                "shortForecast": "Slight Chance Rain Showers then Mostly Cloudy",
+                "detailedForecast": "A slight chance of rain showers between 8am and 9am. Mostly cloudy, with a high near 76. Northeast wind 6 to 13 mph. Chance of precipitation is 20%."
+            },
+            {
+                "number": 7,
+                "name": "Tuesday Night",
+                "startTime": "2022-08-16T18:00:00-04:00",
+                "endTime": "2022-08-17T06:00:00-04:00",
+                "isDaytime": false,
+                "temperature": 63,
+                "temperatureUnit": "F",
+                "temperatureTrend": null,
+                "windSpeed": "7 to 10 mph",
+                "windDirection": "NE",
+                "icon": "https://api.weather.gov/icons/land/night/rain_showers,40/rain_showers,50?size=medium",
+                "shortForecast": "Chance Rain Showers",
+                "detailedForecast": "A chance of rain showers. Mostly cloudy, with a low around 63. Northeast wind 7 to 10 mph. Chance of precipitation is 50%."
+            },
+            {
+                "number": 8,
+                "name": "Wednesday",
+                "startTime": "2022-08-17T06:00:00-04:00",
+                "endTime": "2022-08-17T18:00:00-04:00",
+                "isDaytime": true,
+                "temperature": 75,
+                "temperatureUnit": "F",
+                "temperatureTrend": null,
+                "windSpeed": "9 to 13 mph",
+                "windDirection": "N",
+                "icon": "https://api.weather.gov/icons/land/day/rain_showers,50?size=medium",
+                "shortForecast": "Chance Rain Showers",
+                "detailedForecast": "A chance of rain showers. Partly sunny, with a high near 75. North wind 9 to 13 mph. Chance of precipitation is 50%."
+            },
+            {
+                "number": 9,
+                "name": "Wednesday Night",
+                "startTime": "2022-08-17T18:00:00-04:00",
+                "endTime": "2022-08-18T06:00:00-04:00",
+                "isDaytime": false,
+                "temperature": 62,
+                "temperatureUnit": "F",
+                "temperatureTrend": null,
+                "windSpeed": "8 mph",
+                "windDirection": "NW",
+                "icon": "https://api.weather.gov/icons/land/night/rain_showers,40/rain_showers,30?size=medium",
+                "shortForecast": "Chance Rain Showers",
+                "detailedForecast": "A chance of rain showers. Partly cloudy, with a low around 62. Northwest wind around 8 mph. Chance of precipitation is 40%."
+            },
+            {
+                "number": 10,
+                "name": "Thursday",
+                "startTime": "2022-08-18T06:00:00-04:00",
+                "endTime": "2022-08-18T18:00:00-04:00",
+                "isDaytime": true,
+                "temperature": 81,
+                "temperatureUnit": "F",
+                "temperatureTrend": null,
+                "windSpeed": "8 mph",
+                "windDirection": "W",
+                "icon": "https://api.weather.gov/icons/land/day/rain_showers?size=medium",
+                "shortForecast": "Slight Chance Rain Showers",
+                "detailedForecast": "A slight chance of rain showers before 4pm. Mostly sunny, with a high near 81. West wind around 8 mph."
+            },
+            {
+                "number": 11,
+                "name": "Thursday Night",
+                "startTime": "2022-08-18T18:00:00-04:00",
+                "endTime": "2022-08-19T06:00:00-04:00",
+                "isDaytime": false,
+                "temperature": 64,
+                "temperatureUnit": "F",
+                "temperatureTrend": null,
+                "windSpeed": "6 mph",
+                "windDirection": "W",
+                "icon": "https://api.weather.gov/icons/land/night/few?size=medium",
+                "shortForecast": "Mostly Clear",
+                "detailedForecast": "Mostly clear, with a low around 64. West wind around 6 mph."
+            },
+            {
+                "number": 12,
+                "name": "Friday",
+                "startTime": "2022-08-19T06:00:00-04:00",
+                "endTime": "2022-08-19T18:00:00-04:00",
+                "isDaytime": true,
+                "temperature": 86,
+                "temperatureUnit": "F",
+                "temperatureTrend": null,
+                "windSpeed": "5 to 8 mph",
+                "windDirection": "SW",
+                "icon": "https://api.weather.gov/icons/land/day/few?size=medium",
+                "shortForecast": "Sunny",
+                "detailedForecast": "Sunny, with a high near 86. Southwest wind 5 to 8 mph."
+            },
+            {
+                "number": 13,
+                "name": "Friday Night",
+                "startTime": "2022-08-19T18:00:00-04:00",
+                "endTime": "2022-08-20T06:00:00-04:00",
+                "isDaytime": false,
+                "temperature": 67,
+                "temperatureUnit": "F",
+                "temperatureTrend": null,
+                "windSpeed": "7 mph",
+                "windDirection": "SW",
+                "icon": "https://api.weather.gov/icons/land/night/few?size=medium",
+                "shortForecast": "Mostly Clear",
+                "detailedForecast": "Mostly clear, with a low around 67. Southwest wind around 7 mph."
+            },
+            {
+                "number": 14,
+                "name": "Saturday",
+                "startTime": "2022-08-20T06:00:00-04:00",
+                "endTime": "2022-08-20T18:00:00-04:00",
+                "isDaytime": true,
+                "temperature": 88,
+                "temperatureUnit": "F",
+                "temperatureTrend": null,
+                "windSpeed": "5 to 9 mph",
+                "windDirection": "SW",
+                "icon": "https://api.weather.gov/icons/land/day/sct?size=medium",
+                "shortForecast": "Mostly Sunny",
+                "detailedForecast": "Mostly sunny, with a high near 88. Southwest wind 5 to 9 mph."
+            }
+        ]
+    }
+}

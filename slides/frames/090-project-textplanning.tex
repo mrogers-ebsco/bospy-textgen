@@ -1,0 +1,39 @@
+\begin{frame}
+\frametitle{Mini-Project: Text Planning}
+
+What relations are we expressing?
+
+\begin{itemize}
+	\item A value (\textit{temperature}) will vary within a range.
+	\item A weather condition (\textit{rain}, \textit{winds above 12 mph})
+	will occur during a period of time.
+\end{itemize}
+
+\vspace{12pt}
+
+What kinds of messages can we use to express these relations?
+
+\vspace{12pt}
+
+\begin{tcolorbox}[width=0.45\textwidth,nobeforeafter,title=Message]
+	relation: VALUE-IN-RANGE
+	
+	value: TEMPERATURE
+	
+	minimum: 61
+	
+	maximum: 82
+\end{tcolorbox}
+\hfill
+\begin{tcolorbox}[width=0.45\textwidth,nobeforeafter,title=Message]
+	relation: CONDITION-IN-PERIOD
+	
+	condition: RAIN
+	
+	period-start: TUESDAY-NIGHT
+	
+	period-end: WEDNESDAY-NIGHT
+\end{tcolorbox}
+
+
+\end{frame}

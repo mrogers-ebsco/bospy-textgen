@@ -1,0 +1,26 @@
+\begin{tikzpicture}
+\node (1) [outer sep=6pt] at (0,0) {
+\begin{tcolorbox}[width=0.4\textwidth,nobeforeafter,title=Message]
+relation: VALUE-IN-RANGE
+
+value: TEMPERATURE
+
+minimum: 61
+
+maximum: 82
+\end{tcolorbox}
+};
+
+\node (2) [outer sep=6pt] at (7,0) {
+\begin{tcolorbox}[width=0.4\textwidth,nobeforeafter,title=SentencePlan]
+subject: temperatures
+
+verb phrase: will range from
+
+objects: the 60s to the 80s
+\end{tcolorbox}
+};
+
+\draw [->] (1) -- (2);
+
+\end{tikzpicture}

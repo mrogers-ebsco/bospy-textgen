@@ -1,0 +1,58 @@
+\begin{frame}
+\frametitle{NLG Tasks}
+
+\begin{columns}
+	
+	\begin{column}{0.6\textwidth}
+		Big picture: Transform input data to output text...\\
+		But what are the actual processes involved?
+
+		\vspace{12pt}
+		
+		\begin{itemize}
+		
+			\item \textbf{Content determination} \\
+			      Decide what information to convey\\
+			      Identify \textit{entities}, \textit{concepts},
+			      and \textit{relations}\\
+			      Create data objects called \textit{messages}
+		
+			\item \textbf{Discourse planning} \\
+			      Impose ordering and structure over the messages
+			
+			\item \textbf{Sentence aggregation} \\
+			      Group messages together into sentences
+		
+		\end{itemize}
+	\end{column}
+	
+	\begin{column}{0.4\textwidth}
+	\tiny
+		\begin{tcolorbox}[title=message-id: msg01, width=0.85\textwidth]
+			relation: IDENTITY
+			
+			arg1: NEXT-TRAIN
+			
+			arg2: CALEDONIAN-EXPRESS
+		\end{tcolorbox}
+		
+		``The next train is the Caledonian Express.''
+		
+		\vspace{12pt}
+		
+		\begin{tcolorbox}[title=message-id: msg02, width=0.85\textwidth]
+			relation: DEPARTURE
+			
+			departing-entity: CALEDONIAN-EXPRESS
+			
+			departure-location: ABERDEEN
+			
+			departure-time: 1000
+		\end{tcolorbox}
+		
+		``The Caledonian Express leaves Aberdeen at 10am.''
+	\end{column}
+
+\end{columns}
+
+\end{frame}

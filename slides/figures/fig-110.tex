@@ -1,0 +1,26 @@
+\begin{tikzpicture}
+
+\node (1) [scale=0.7, outer sep=6pt] at (0,0) {
+\begin{tcolorbox}[width=0.5\textwidth,nobeforeafter,title=SentencePlan]
+subject: rain
+
+verb phrase: is predicted for
+
+objects: 
+
+\hspace{2em} friday through saturday,
+
+\hspace{2em} monday,
+
+\hspace{2em} tuesday night through thursday
+\end{tcolorbox}
+};
+
+\node (2) [align=center, outer sep=6pt] at (6,0) {
+``Rain is predicted for \\ Friday through Saturday, \\
+Monday, and Tuesday night \\ through Thursday.''
+};
+
+\draw [->] (1) -- (2);
+
+\end{tikzpicture}
